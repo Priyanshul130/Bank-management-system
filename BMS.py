@@ -24,6 +24,7 @@ def base_check():
     if check!=1:
         create_database()
 
+
 def table_check():
     db = pymysql.connect(host="localhost", user="root", password=passwrd)
     cursor = db.cursor()
